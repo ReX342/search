@@ -2,59 +2,69 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="style3.css">
-        <link rel="stylesheet" href="style4.css">
-        <link rel="stylesheet" href="style5.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+           <style>
+            .row > div {
+                padding: 20px;
+                background-color: teal;
+                border: 2px solid black;
+            }
+        </style>
     </head>
     <body>
-<p>Advanced Search</p>
+<p>Advanced Search: Works</p>
 
+<p> Use this column system as old CSS is gone</p>
+<p> Make button blue again with white text</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    This is a section.
+                </div>
+                <div class="col-6">
+                    This is another section.
+                </div>
+                <div class="col-3">
+                    This is a third section.
+                </div>
+            </div>
+        </div>
+
+
+<form action="https://google.com/">
 <div class="row">
 <div class="left">    
 Find pages with...</div>
- <input type="text">
+ <input type="text" name="as_q">
 </div>
+
 
 <div class="row">
 <div class="left">
 Find pages with… “all these words:”</div>
-<input type="text">
+<input type="text" name="as_epq">
 </div>
 
 <div class="row">
 <div class="left">
 Find pages with… “this exact word or phrase:”</div>
- <input type="text">
+ <input type="text" name="as_oq">
 </div>
 
 <div class="row">
 <div = class= "left">
 Find pages with… “any of these words:”</div>
- <input type="text">
+ <input type="text" name="as_eq">
 </div>
 
 <div class="row">
 <div = class= "left">
 Find pages with… “none of these words:”</div>
- <input type="text">
+ <input type="text" name="as_nlo">
 </div>
 
-<input class="cuba cuba-action" name="q" value="Google Advanced Search" type="submit">
-<p> There's a third class property that we skipped, let's check it out first! Learn CSS</p>
-
-<p> Reason for button not working: Look at old.html's value, name and type
-<p> To Do: Put this code in the button:
-        <form action="https://google.com/advanced_search">
-        <div class="center search">
-            <input type="text" autocomplete="off" name="q">
-        </div>
-
-         <div class="center">
-            <input type="submit" value="Google Advanced Search">
-        </div>
-</p>
-
+<input class="cuba cuba-action" value="Google Advanced Search" type="submit">
+</form>
 
 
 <p>
