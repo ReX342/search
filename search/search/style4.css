@@ -1,0 +1,9 @@
+.row { 
+    border: solid blue 3px; 
+    display: block;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
