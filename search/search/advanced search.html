@@ -5,23 +5,26 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
     <style>
-            .row > div {
-                padding: 20px;
-                background-color: teal;
-                border: 2px solid black;
-            }
-            @media (max-width: 700px) { 
-            .hidden-on-smallscreen {
-                display: none;
-            }
-            }
-            .container {
-                width: 100%;
-                margin: 0px;
-            }
-            .row {
-                width: 100%;
-            }
+        .row > div {
+            padding: 20px;
+            background-color: teal;
+            border: 2px solid black;
+        }
+        @media (max-width: 700px) { 
+        .hidden-on-smallscreen {
+            display: none;
+        }
+        }
+        .container {
+            width: 100%;
+            margin: 0px;
+        }
+        .row {
+            width: 100%;
+        }
+        .fill {
+            flex-grow: 1;
+        }
     </style>
     <body>
 <p>Advanced Search: Works</p>
@@ -53,7 +56,6 @@ Find pages with...</div>
     <input type="text" name="as_q">
     </div>
 </div>
-
 
 <div class="row">
 <div class="left">
@@ -95,32 +97,35 @@ Find pages with… “none of these words:”</div>
 <p>
 <div class="right">
 <h2>Media Queries</h2>
+<ol>
+<li>
 <p>Resize the browser window.</p>
-
+<li>
 <p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
-
+<li>
 <div class="left">
   <p>Left Menu</p>
 </div>
-
+<li>
 <div class="main">
   <p>Main Content</p>
 </div>
-
+<li>
 <div class="right">
   <p>Right Content</p>
 </div>
 
-<p><div class="row">
-Appearance. Like Google’s own Advanced Search <a href="https://www.google.com/advanced_search">page</a>, the four options should be stacked vertically, and all of the text fields should be left aligned.</p></div>
-<p><div class="row">
-Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text. When the “Advanced Search” button is clicked, the user should be taken to search results page for their given query.</p></div>
-<p><div class="row">
-Lucky. Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page.</p></div>
-<p>
+<li>
+Appearance. Like Google’s own Advanced Search <a href="https://www.google.com/advanced_search">page</a>, the four options should be stacked vertically, and all of the text fields should be left aligned.
+<li>
+Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text. When the “Advanced Search” button is clicked, the user should be taken to search results page for their given query.
+<li>
+Lucky. Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page.
+<li>
 Aesthetics. The CSS you write should match Google’s own aesthetics as best as possible.
-</p>
 
+<li>
 <a href="https://www.google.com/advanced_search"> Endgoal shoud look like this</a>
+</ol>
     </body>
 </html>
