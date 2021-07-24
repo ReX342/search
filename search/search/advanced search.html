@@ -25,6 +25,9 @@
         .fill {
             flex-grow: 1;
         }
+        .first {
+            flex-basis: 350px;
+        }
     </style>
     <body>
 <p>Advanced Search: Works</p>
@@ -50,7 +53,7 @@
 
 <form action="https://google.com/">
 <div class="row">
-<div class="left">    
+<div class="left first">    
 Find pages with...</div>
     <div class="col-6">
     <input type="text" name="as_q">
@@ -58,7 +61,7 @@ Find pages with...</div>
 </div>
 
 <div class="row">
-<div class="left">
+<div class="left first">
 Find pages with… “all these words:”</div>
     <div class="col-6">
     <input type="text" name="as_epq">
@@ -66,7 +69,7 @@ Find pages with… “all these words:”</div>
 </div>
 
 <div class="row">
-<div class="left">
+<div class="left first">
 Find pages with… “this exact word or phrase:”</div>
     <div class="col-6">
     <input type="text" name="as_oq">
@@ -74,7 +77,7 @@ Find pages with… “this exact word or phrase:”</div>
 </div>
 
 <div class="row">
-<div = class= "left">
+<div = class= "left first">
 Find pages with… “any of these words:”</div>
     <div class="col-6">
     <input type="text" name="as_eq">
@@ -82,7 +85,7 @@ Find pages with… “any of these words:”</div>
 </div>
 
 <div class="row">
-<div = class= "left">
+<div = class= "left first">
 Find pages with… “none of these words:”</div>
     <div class="col-6">
     <input type="text" name="as_nlo">
@@ -115,15 +118,15 @@ Find pages with… “none of these words:”</div>
   <p>Right Content</p>
 </div>
 
-<li>
+<li><p>
 Appearance. Like Google’s own Advanced Search <a href="https://www.google.com/advanced_search">page</a>, the four options should be stacked vertically, and all of the text fields should be left aligned.
-<li>
+<li></p>
 Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text. When the “Advanced Search” button is clicked, the user should be taken to search results page for their given query.
-<li>
-Lucky. Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page.
-<li>
+<p><li>
+Lucky. Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page.</p>
+<p><li>
 Aesthetics. The CSS you write should match Google’s own aesthetics as best as possible.
-
+</p>
 <li>
 <a href="https://www.google.com/advanced_search"> Endgoal shoud look like this</a>
 </ol>
