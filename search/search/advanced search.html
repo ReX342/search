@@ -4,6 +4,25 @@
         <title>Advanced Search</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
+    <style>
+            .row > div {
+                padding: 20px;
+                background-color: teal;
+                border: 2px solid black;
+            }
+            @media (max-width: 700px) { 
+            .hidden-on-smallscreen {
+                display: none;
+            }
+            }
+            .container {
+                width: 100%;
+                margin: 0px;
+            }
+            .row {
+                width: 100%;
+            }
+    </style>
     <body>
 <p>Advanced Search: Works</p>
 
@@ -18,12 +37,13 @@
             <div class="col-6">
                 This is another section.
             </div>
-            <div class="col-3">
+            <div class="col-3 hidden-on-smallscreen">
                 This is a third section.
             </div>
         </div>
     </div>
 
+<div class="container">
 
 <form action="https://google.com/">
 <div class="row">
@@ -60,7 +80,7 @@ Find pages with… “none of these words:”</div>
 <input value="Google Advanced Search" type="submit" button type="button" class="btn btn-primary">
 
 </form>
-
+</div>
 
 <p>
 <div class="right">
