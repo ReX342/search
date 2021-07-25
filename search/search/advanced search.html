@@ -10,7 +10,7 @@
             background-color: teal;
             border: 2px solid black;
         }
-        @media (max-width: 700px) { 
+        @media (max-width: 800px) { 
         .hidden-on-smallscreen {
             display: none;
         }
@@ -26,28 +26,26 @@
             flex-grow: 1;
         }
         .first {
-            flex-basis: 350px;
+            flex-basis: 400px;
+        }
+        .left {
+            text-align: left;
         }
     </style>
     <body>
-<p>Advanced Search: Works</p>
-
-<p> Use this column system as old CSS is gone</p>
-<p> https://www.w3schools.com/css/css3_flexbox.asp </p>
-<p> Make button blue again with white text</p>
-    <div class="container">
-        <div class="row">
-            <div class="col-3">
-                This is a section.
-            </div>
-            <div class="col-6">
-                This is another section.
-            </div>
-            <div class="col-3 hidden-on-smallscreen">
-                This is a third section.
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+            Find Pages with...
+        </div>
+        <div class="col-6">
+            
+        </div>
+        <div class="col-3 hidden-on-smallscreen">
+            Put this in your search bar
         </div>
     </div>
+</div>
 
 <div class="container">
 
@@ -97,38 +95,5 @@ Find pages with… “none of these words:”</div>
 </form>
 </div>
 
-<p>
-<div class="right">
-<h2>Media Queries</h2>
-<ol>
-<li>
-<p>Resize the browser window.</p>
-<li>
-<p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
-<li>
-<div class="left">
-  <p>Left Menu</p>
-</div>
-<li>
-<div class="main">
-  <p>Main Content</p>
-</div>
-<li>
-<div class="right">
-  <p>Right Content</p>
-</div>
-
-<li><p>
-Appearance. Like Google’s own Advanced Search <a href="https://www.google.com/advanced_search">page</a>, the four options should be stacked vertically, and all of the text fields should be left aligned.
-<li></p>
-Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text. When the “Advanced Search” button is clicked, the user should be taken to search results page for their given query.
-<p><li>
-Lucky. Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page.</p>
-<p><li>
-Aesthetics. The CSS you write should match Google’s own aesthetics as best as possible.
-</p>
-<li>
-<a href="https://www.google.com/advanced_search"> Endgoal shoud look like this</a>
-</ol>
     </body>
 </html>
