@@ -7,3 +7,15 @@
 h4 {
     color: #d93025
 }
+.left {
+    margin-left: 50px;
+}
+.right {
+    text-align: right;
+}
+.fill {
+    text-align: justify;
+}
+.filler {
+    flex-grow: 1;
+}
