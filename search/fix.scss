@@ -1,0 +1,46 @@
+/* https://github.com/Gen1a/CS50W-Project0-Google-Search/blob/master/styles.scss */
+.advanced-search-container {
+    margin: 50px 40px;
+
+    label {
+        display: inline-block;
+        width: 16%;
+        font-size: 20px;
+    }
+
+    .whitespace {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .form-group {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        padding: 10px 0;
+
+        label {
+            width: 16%;
+            font-size: 14px;
+        }
+
+        input[type="text"] {
+            width: 49%;
+            padding: 2px 0;
+        }
+
+        .clarification {
+            font-size: 11px;
+            width: 30%;
+            margin-left: 1%;
+
+            .monospace {
+                font-family: monospace;
+            }
+        }
+
+        .right-align {
+            width: 50%;
+        }
+    }
+}

@@ -41,3 +41,12 @@ h4 {
     height: 25px;
     padding: 1px 8px;
 }
+.scss {
+    display: inline-block;
+}
+.whooops {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
+  }
