@@ -21,10 +21,18 @@
         .first {
             flex-basis: 400px;
         }
+        /* making sure we don't round input fields on this page */
+        input[type="text"] {
+            border-radius: 0px 0px 0px 0px;
+        }
     </style>
     <body>
-
-<p> To do: Use .css or .scss file for text input fiels alignment (styling of the page)
+<h6> Design
+</h6>
+<h7>
+To Do:
+</h7>
+<p> Use .css or .scss file for text input fiels alignment (styling of the page)
     <div class="topright"> <a href="image search.html">Image Search<a>
     <br><a href="index.html">Google Search<a>
     </div>
@@ -46,21 +54,51 @@ This text should reach to the advanced search button
             <input class="form-control" id="inputdefault" type="text">
             <input class="form-control" id="inputdefault" type="text">
             <input class="form-control" id="inputdefault" type="text">                        
-        </div>
-        </form>
 
-    <div class="form-group row">
-        <div class="col-xs-2">
-        <input class="form-control" id="numberrangeminimum" type="text">
-        </div>
-        <div class="col-xs-2"> To
-        <input class="form-control" id="numberrangemaximum" type="text">
+        <div class="row">
+            <div class="col-xs-2">
+                <input class="form-control" id="numberrangeminimum" type="text">
+            </div>
+            <div class="col-xs-2"> To
+                <input class="form-control" id="numberrangemaximum" type="text">
+            </div> 
         </div> 
-    </div> A little strange this isn't a row
+        
+        <i>A little strange this isn't a row!</i>
+        
+                <h5>
+        Problems & Solutions: 
+        </h5>
+        <h6> Last row doesn't align correctly
+        </h6>
+            <ol>
+            <li>
+            Change col-xs-2 to grid with labels <a href="
+            https://www.w3schools.com/w3css/w3css_input.asp">first lastname labels <a> 
+            <li> <a href="
+            https://www.w3schools.com/CSSref/pr_grid-row.asp"> Learn to use grid <a>
+            </li>
+            <li>
+            Watch dozens of YT video's instead of submitting 1 line of code 
+            <li> Write a to do list/design doc
+            </li>
+            </ol>
+
+        </div>
+    </form>
 
         </div>
         <div class="col-3 hidden-on-smallscreen">
-This text should dropoff on resize
+<i> This text should dropoff on resize </i>
+<h6> Text aligning vertically over all rows
+</h6>
+<ol>
+<li>
+Put This text next to each input field. Fail: Just adds another row below
+</li>
+<li>
+Ask help
+</li>
         </div>
     </div>
 </div>
